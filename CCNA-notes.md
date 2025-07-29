@@ -120,3 +120,35 @@
 > 
 > P - Physical
 >
+
+---
+
+### 🔹 Transport Layer
+- Responsible for **breaking data into smaller pieces** called *fragments* (fragmentation).
+- 📦 Example: The word `hello` becomes → `h`, `e`, `l`, `l`, `o`
+- **Why fragment data?**
+  - To ensure easier, efficient transmission.
+  - 🛏️ Analogy: If a bunk bed can’t fit through a door, you don’t break the door — you break the bed into parts and reassemble inside. Same with data.
+
+---
+
+### 🔹 Network Layer
+- Responsible for **routing and delivering data** to its destination.
+- 📫 Analogy: Like a post office — receives all letters, sorts them, and sends them to the right address.
+- **Main device**: `Router`
+
+#### 📡 Network Devices & Their OSI Layers:
+- **Router** → Network layer  
+- **Switch** → Data Link layer  
+- **Hub** → Physical layer
+
+#### ⚙️ What is a Hub?
+- A **universal broadcaster** — sends incoming data to all devices in a network.
+- Known as a **hybrid universal broadcast device**.
+
+---
+
+### 🔸 Types of Network Communication
+- **Broadcast** → One to All  
+- **Multicast** → One to Specific Group  
+- **Unicast** → One to One
