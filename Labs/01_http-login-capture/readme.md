@@ -19,7 +19,7 @@ To capture a username and password submitted via an HTTP login form using Wiresh
 - POST method carries sensitive data in the payload
 - Importance of HTTPS in modern networks
 
-## ScreenShots 
+## Screenshots 
 
 <img width="1363" height="90" alt="Screenshot 2025-07-29 170900" src="https://github.com/user-attachments/assets/d0d4b329-627f-4083-acba-b08f9018f6ac" />
 
