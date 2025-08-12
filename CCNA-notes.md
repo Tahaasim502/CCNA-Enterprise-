@@ -152,3 +152,28 @@
 - **Broadcast** → One to All  
 - **Multicast** → One to Specific Group  
 - **Unicast** → One to One
+
+---
+
+### Symbols
+
+![WhatsApp Image 2025-08-12 at 16 20 52_7abe9536](https://github.com/user-attachments/assets/0b1267a5-f502-482f-8135-db9e00aab798)
+
+----
+
+### LAN VS WAN
+
+| **LAN** | **WAN** |
+| --- | --- |
+| Covers a smaller geographical area (e.g., a building, campus). | Covers a larger geographical area (e.g., cities, countries). |
+| Uses **LAN standards** such as Ethernet (IEEE 802.3) or Wi-Fi (IEEE 802.11). | Uses **WAN standards** such as PPP, MPLS, Frame Relay, or Metro Ethernet. |
+| Typically connects end devices (PCs, switches) within the same location. | Typically connects **networks** together (e.g., between two routers). |
+| Example: Switch-to-PC using Ethernet cable. | Example: Router-to-router using serial cable with WAN encapsulation. |
+
+> 💡 Important:
+> 
+> 
+> WAN isn’t *only* about long distance. It depends on the **technology/standard** in use.
+> 
+> For example, if you connect two routers via their **serial interfaces**, you must use a **WAN cable** (and WAN encapsulation) — even if they’re sitting on the same desk.
+>
