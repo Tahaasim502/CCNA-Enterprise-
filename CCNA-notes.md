@@ -194,12 +194,12 @@
 
 ### Chapter IV: IPv4 Addressing
 
-## Subnetting
+### Subnetting
 
 - **Definition**: A process that divides one large network into smaller subnets, each of these subnets are then assigned to different parts of the network, and splits the host bits into subnet bits and remaining host bits.
 - **Example - Sandwich Theory**: "You ordered a large sandwich for afternoon meal, you realised it's over 2km long, hence needed to cut the sandwich. We divide it into smaller pieces with other colleagues"
 
-## What a Network is (Class A/B/C)
+### What a Network is (Class A/B/C)
 
 - A network is a block of IP addresses that are grouped together by some rules.
 - The rules define which part of the network stays the same for that network.
@@ -209,11 +209,11 @@
 - **Class B**: 172.16.0.0 → all addresses start from 172.16.0.0 to 172.16.255.255
 - **Class A**: 10.0.0.0 → addresses start from 10.0.0.0 to 10.255.255.255
 
-## What is a Subnet?
+### What is a Subnet?
 
 - A subnet is a smaller piece of a bigger network - think of it as slicing a big cake into smaller pieces.
 
-## Subnet Terminology
+### Subnet Terminology
 
 - The word subnet means **subdivided network**
 - **Example**: Class B 172.16.0.0
@@ -226,7 +226,7 @@
 - Big networks are too large to manage.
 - Subnet makes it easier to assign/assign parts of the network to different areas.
 
-## IP Addressing Rules | Subnet Rules
+### IP Addressing Rules | Subnet Rules
 
 ### 1) Same Subnet
 
@@ -242,7 +242,7 @@
 
 - A router connects to multiple systems/subnets.
 
-## Router Interface Rules
+### Router Interface Rules
 
 - Each interface on the router belongs to one subnet.
 
