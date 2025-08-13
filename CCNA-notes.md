@@ -177,3 +177,16 @@
 > 
 > For example, if you connect two routers via their **serial interfaces**, you must use a **WAN cable** (and WAN encapsulation) — even if they’re sitting on the same desk.
 >
+
+---
+
+### Making Network(Block Diagram)
+
+![WhatsApp Image 2025-08-13 at 12 13 22_15d2425d](https://github.com/user-attachments/assets/693000ff-9ffd-44fa-b2dc-8b10517dc706)
+
+---
+
+### Making Network(Detailed Diagram)
+
+![WhatsApp Image 2025-08-13 at 12 27 17_e6a173b9](https://github.com/user-attachments/assets/0da4ef6f-bb25-4ec4-a047-d1558676c575)
+
