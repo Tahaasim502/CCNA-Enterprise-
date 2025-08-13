@@ -190,3 +190,65 @@
 
 ![WhatsApp Image 2025-08-13 at 12 27 17_e6a173b9](https://github.com/user-attachments/assets/0da4ef6f-bb25-4ec4-a047-d1558676c575)
 
+---
+
+### Chapter IV: IPv4 Addressing
+
+## Subnetting
+
+- **Definition**: A process that divides one large network into smaller subnets, each of these subnets are then assigned to different parts of the network, and splits the host bits into subnet bits and remaining host bits.
+- **Example - Sandwich Theory**: "You ordered a large sandwich for afternoon meal, you realised it's over 2km long, hence needed to cut the sandwich. We divide it into smaller pieces with other colleagues"
+
+## What a Network is (Class A/B/C)
+
+- A network is a block of IP addresses that are grouped together by some rules.
+- The rules define which part of the network stays the same for that network.
+
+### Examples:
+
+- **Class B**: 172.16.0.0 → all addresses start from 172.16.0.0 to 172.16.255.255
+- **Class A**: 10.0.0.0 → addresses start from 10.0.0.0 to 10.255.255.255
+
+## What is a Subnet?
+
+- A subnet is a smaller piece of a bigger network - think of it as slicing a big cake into smaller pieces.
+
+## Subnet Terminology
+
+- The word subnet means **subdivided network**
+- **Example**: Class B 172.16.0.0
+    - Subnet 1: 172.16.1.0 to 172.16.1.255
+    - Subnet 2: 172.16.2.0 to 172.16.2.255
+- So 1 identifies the subnet and 0-255 is the range address inside that subnet.
+
+### Why we do this?
+
+- Big networks are too large to manage.
+- Subnet makes it easier to assign/assign parts of the network to different areas.
+
+## IP Addressing Rules | Subnet Rules
+
+### 1) Same Subnet
+
+- Devices can communicate directly.
+- **Example**: Host A & Host B on the same LAN.
+
+### 2) Different Subnet
+
+- Devices need router to communicate.
+- **Example**: Host C can communicate to Host B & Host A through a router since they are on different subnets.
+
+### 3) Router Interface & Subnet:
+
+- A router connects to multiple systems/subnets.
+
+## Router Interface Rules
+
+- Each interface on the router belongs to one subnet.
+
+**Examples:**
+
+- R1 LAN interface → Same subnet as PC's
+- R1 WAN interface → Same subnet as R2's WAN interface
+
+**Important:** Routers are used for communication when devices are connected to different subnets.
