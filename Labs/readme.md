@@ -1,29 +1,33 @@
 # 🧪 Network Security & CCNA Lab Collection
 
-This folder contains practical lab exercises related to networking, cybersecurity, and CCNA Enterprise concepts. Each lab demonstrates a hands-on activity using tools like **Wireshark**, and focuses on understanding how networks function, identifying vulnerabilities, and analyzing packet data.
+This repository contains practical lab exercises focused on **networking concepts, CCNA Enterprise topics, and basic network security practices**. Each lab demonstrates hands-on activities on Cisco devices, Packet Tracer, or GNS3, helping you understand how networks function, configure devices, and troubleshoot common issues.
 
 ## 🔍 What You'll Find Here
 
-- **HTTP Credential Capture Lab**  
-  Learn how to capture usernames and passwords sent over unencrypted HTTP traffic using Wireshark.
+- **Lab 1: Configure, Verify, and Troubleshoot IPv4 Addresses**  
+  Learn to assign IP addresses, verify connectivity, and troubleshoot addressing issues on Cisco routers.
 
-- **DNS Analysis Lab** *(coming soon)*  
-  Track and analyze DNS queries to understand how domain names are resolved into IP addresses.
+- **Future Labs (coming soon)**  
+  - Routing and Switching configurations  
+  - VLANs and Inter-VLAN Routing  
+  - Basic Network Security setups  
 
-- **VoIP Traffic Analysis** *(optional lab)*  
-  Explore Voice over IP packet structures and understand how voice communication is transmitted across a network.
+## 🛠 Tools & Platforms Used
+- **Cisco Packet Tracer / GNS3** – for simulating networks  
+- **Cisco IOS commands** – for configuring routers and switches  
+- **Basic networking knowledge** – IP addressing, subnetting, routing  
 
-## 🛠 Tools Used
-- **Wireshark** – for packet capturing and analysis
-- **Local HTTP servers / simulated login pages**
-- **Basic DNS and TCP/IP knowledge**
+## 📂 Repository Structure
+Each lab folder contains:  
+- A `README.md` with objectives, instructions, and explanation  
+- Router/switch configuration files (`config.txt`)  
+- Screenshots or diagrams of network topology  
+
+## 🙏 Credits
+This lab collection is inspired by and adapted from the **CCNA 101 Lab Guide** by:  
+- **Paul Browning**  
+- **Farai Tafa**  
 
 ---
 
-Each subfolder contains:
-- A brief `README.md` with instructions and explanation
-- Screenshots or captures from the lab
-- Any relevant files or configurations used
-
-This is an ongoing collection and will be updated as more labs are completed.
-
+This repository is continuously updated as more labs are completed and new concepts are practiced.
