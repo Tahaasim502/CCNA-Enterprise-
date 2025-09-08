@@ -25,6 +25,7 @@ Configuring IPv4 addressing is one of the most **fundamental skills** for a Cisc
 
 ✅ After applying these steps, R1 successfully pinged R3.  
 
+<img width="534" height="93" alt="image" src="https://github.com/user-attachments/assets/2b4b4fc3-eee3-48eb-8dda-7ca3d54e6cb7" />
 
 
 
